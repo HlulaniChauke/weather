@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#mainContainer{
+    margin: 0;
+    width: 60vw;
+    height: 60vh;
+    border: 0.01rem solid black;
+    background-color: lightblue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+#mainContainer > * {
+    flex-shrink: 1;
+}
+
+#display{
+    height: 10vh;
+    width: 30vh;
+    border: 0.01rem solid black;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
